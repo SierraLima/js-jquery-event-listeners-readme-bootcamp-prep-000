@@ -18,7 +18,7 @@ function frameIt() {
 
 function pressIt() {
   $('form').on("keydown", function(key){
-    if (key.which == 82) {
+    if (key.which == 103) {
       alert('')
     }
   })
