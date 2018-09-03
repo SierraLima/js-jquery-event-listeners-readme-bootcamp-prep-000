@@ -6,7 +6,6 @@ $(document).ready(function(){
 function getIt() {
   $('p').on('click', function(){
     alert('Hey!')
-    return;
   });
 }
 
@@ -17,15 +16,15 @@ function frameIt() {
 }
 
 function pressIt() {
-  $('#typing').on('keydown', function(key){
-    if (key.which == 71) {
+  $('#typing').on('keydown', function(e){
+    if (e.which == 71) {
       alert("You pressed 'g'!")
     }
   })
 }
 
 function submitIt() {
-  $('form').on('submit', function(key) {
+  $('form').on('submit', function(e) {
     alert('Your form is going to be submitted now.')
   })
 }
