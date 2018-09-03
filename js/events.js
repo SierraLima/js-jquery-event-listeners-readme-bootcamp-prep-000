@@ -4,7 +4,9 @@ $(document).ready(function(){
 
 // call functions here
 function getIt() {
-  return $('p')
+  return $('p').on("click", function(){
+    
+  });
 }
 
 function frameIt() {
