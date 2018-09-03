@@ -7,5 +7,17 @@ function getIt() {
   
 }
 
-function frameIt() 
+function frameIt() {
+  
+}
+
+function pressIt() {
+  
+}
+
+function submitIt() {
+  
+}
+
+
 });
