@@ -4,15 +4,15 @@ $(document).ready(function(){
 
 // call functions here
 function getIt() {
-  return $('p').on("click", function(){
+  $('p').on("click", function(){
     alert('Hey!');
     return;
   });
 }
 
 function frameIt() {
-  return $('img').on("load", function(){
-    
+  $('img').on("load", function(){
+    $('img').addClass('tasty')
   })
 }
 
