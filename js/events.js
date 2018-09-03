@@ -17,7 +17,11 @@ function frameIt() {
 }
 
 function pressIt() {
-  
+  $('form').on("keydown", function(key){
+    if (key.which == 82) {
+      alert('')
+    }
+  })
 }
 
 function submitIt() {
