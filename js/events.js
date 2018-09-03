@@ -7,7 +7,7 @@ function getIt() {
   $('p').on("click", function(){
     alert('Hey!')
     return;
-  })
+  });
 }
 
 function frameIt() {
@@ -26,7 +26,7 @@ function pressIt() {
 
 function submitIt() {
   $('form').on("submit", function(key) {
-    alert("Your form is going to be submitted now.");
+    alert('Your form is going to be submitted now.')
   })
 }
 
